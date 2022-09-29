@@ -39,7 +39,7 @@ do {
     (userChoice === "R" && computerChoice === "R") ||
     (userChoice === "S" && computerChoice === "S")
   ) {
-    tie + 1;
+    tie++;
     console.log("You tied", tie, "times");
     alert("You tied" + tie + "times");
   }
