@@ -19,4 +19,3 @@ var computerChoice =
   computerOptions[Math.floor(Math.random() * computerOptions.length)];
 console.log(userChoice);
 console.log(computerChoice);
-t;
